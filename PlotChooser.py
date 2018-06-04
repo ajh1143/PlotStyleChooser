@@ -25,28 +25,19 @@ class PlotChoices():
         #Test if user entered 'default' as data_dict to use pre-built dataset
         if dict_data == 'default':
             dict_data = {'Group A': 25, 'Group B': 50, 'Group C': 75}
-            for each in types:
-                plt.style.use(each)
-                names = list(dict_data.keys())
-                values = list(dict_data.values())
-                plt.bar(range(len(dict_data)), values, tick_label=names)
-                plt.title('Style = ' + each)
-                plt.xlabel('X-Axis Label')
-                plt.ylabel('Y-Axis Label')
-                plt.tight_layout()
-                plt.show()
-        #If user entered their own dictionary data-set appropriate for a bar plot
+        #If using a novel dictionary dataset appropriate for a bar plot, use as 'dict_data'
         else:
-            for each in types:
-                plt.style.use(each)
-                names = list(dict_data.keys())
-                values = list(dict_data.values())
-                plt.bar(range(len(dict_data)), values, tick_label=names)
-                plt.title('Style = '+each)
-                plt.xlabel('X-Axis Label')
-                plt.ylabel('Y-Axis Label')
-                plt.tight_layout()
-                plt.show()
+            dict_data = dict_data
+        for each in types:
+            plt.style.use(each)
+            names = list(dict_data.keys())
+            values = list(dict_data.values())
+            plt.bar(range(len(dict_data)), values, tick_label=names)
+            plt.title('Style = ' + each)
+            plt.xlabel('X-Axis Label')
+            plt.ylabel('Y-Axis Label')
+            plt.tight_layout()
+            plt.show()
 
 if __name__ == "__main__":
     run = PlotChoices()
