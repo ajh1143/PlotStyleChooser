@@ -2,7 +2,7 @@
 
 ### Function
 
-Discover out which plotting style you prefer, by generating a sample of each of the 23 most popular styles in MatPlotLib, either using a compatible dictionary-based dataset, or by using the default example. 
+Discover out which plotting style you prefer, by generating a sample of each of the 23 most popular styles in MatPlotLib, either using a compatible dictionary-based dataset, or by using the default data example. 
 
 ### Plot Styles Included:
 ```
