@@ -6,11 +6,11 @@ Generates the top 21 styles available in MatPlotLib for your data set in a varie
 
 ## Plot Styles Included:
 ```
-#### 'bmh', 'seaborn-poster', 'seaborn-darkgrid', 'seaborn-paper', 'classic', 'seaborn', 'grayscale' 
+'bmh', 'seaborn-poster', 'seaborn-darkgrid', 'seaborn-paper', 'classic', 'seaborn', 'grayscale' 
 
-#### 'seaborn-dark', 'seaborn-talk', 'seaborn-dark-palette', 'seaborn-colorblind', 'seaborn-bright' 
+'seaborn-dark', 'seaborn-talk', 'seaborn-dark-palette', 'seaborn-colorblind', 'seaborn-bright' 
 
-#### 'seaborn-ticks', 'seaborn-muted', 'seaborn-pastel', 'seaborn-notebook', '_classic_test', 'fivethirtyeight' 
+'seaborn-ticks', 'seaborn-muted', 'seaborn-pastel', 'seaborn-notebook', '_classic_test', 'fivethirtyeight' 
 
-#### 'seaborn-white', 'seaborn-whitegrid', 'seaborn-deep', 'dark_background', 'ggplot'
+'seaborn-white', 'seaborn-whitegrid', 'seaborn-deep', 'dark_background', 'ggplot'
 ```
