@@ -6,7 +6,7 @@ class PlotChoices():
     
     def PlotStyles(self):
     """
-    Generates amd returns a list of the top 21 styles native to MatPlotLib
+    Generates amd returns a list of the top 23 styles native to MatPlotLib
     """
         styles = plt.style.available
         return styles
@@ -14,7 +14,7 @@ class PlotChoices():
     
     def barPlots(self, dict_data, types):
     """
-    Function: Uses dictionary dataset to create 21 different bar plots with different styles selected
+    Function: Uses dictionary dataset to create 23 different bar plots with different styles selected
     
     Args: dict_data: your datase, expected to be in dictionary format
           types: List of style names to use for each plot generated
