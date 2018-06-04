@@ -28,10 +28,10 @@ class PlotChoices():
         #If using a novel dictionary dataset appropriate for a bar plot, use as 'dict_data'
         else:
             dict_data = dict_data
+        names = list(dict_data.keys())
+        values = list(dict_data.values())
         for each in types:
             plt.style.use(each)
-            names = list(dict_data.keys())
-            values = list(dict_data.values())
             plt.bar(range(len(dict_data)), values, tick_label=names)
             plt.title('Style = ' + each)
             plt.xlabel('X-Axis Label')
