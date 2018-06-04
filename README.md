@@ -1,4 +1,4 @@
-# PlotStyleChooser
+# Plot Style Detective
 
 ### Function
 
