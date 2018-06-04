@@ -1,10 +1,10 @@
 # PlotStyleChooser
 
-## Function
+### Function
 
-Generates the top 23 styles available in MatPlotLib for your data set in a variety of graph formats for you to choose the best match for your needs.
+Discover out which plotting style you prefer, by generating a sample of each of the 23 most popular styles in MatPlotLib, either using a compatible dictionary-based dataset, or by using the default example. 
 
-## Plot Styles Included:
+### Plot Styles Included:
 ```
 'bmh', 'seaborn-poster', 'seaborn-darkgrid', 'seaborn-paper', 'classic', 'seaborn', 'grayscale' 
 
